@@ -11,7 +11,7 @@ const RestaurantSchema = mongoose.Schema({
     name: { type: String, required: true },
     type: { type: String, enum: ["Pure Veg.", "Non Veg.", "Veg/Non Veg"] },
     location: {
-        type: String, require,
+        type: String, requireed: true
     },
     maue: [item]
 })
